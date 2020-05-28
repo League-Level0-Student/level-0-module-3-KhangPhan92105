@@ -14,11 +14,16 @@ import javax.swing.JOptionPane;
 public class ShinyObjects {
 	public static void main(String[] args) {
 		// 2. Ask the user how many shiny objects they want
-   JOptionPane.showInputDialog("How many shiny items do you want?");
-		// 3. Play the sound that many times
-   if 
+   String userInput = JOptionPane.showInputDialog("How many shiny items do you want?");
+	int intUserInput = Integer.parseInt(userInput);	
+   // 3. Play the sound that many times
+   System.out.println(intUserInput);
 		// 1. Call the method below
-
+    for(int i=0; i < intUserInput; i++) {
+    	playMisterZee();
+    	
+    
+    }
 	}
 
 	public static void playMisterZee() {
