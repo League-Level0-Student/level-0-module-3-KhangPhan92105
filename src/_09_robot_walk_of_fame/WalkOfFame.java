@@ -40,7 +40,7 @@ public class WalkOfFame {
   			if( x >= 500) {
 				y += 200;
 				x = 100;
-				move += 200;
+				move = y;
 				
   			}
 		}
