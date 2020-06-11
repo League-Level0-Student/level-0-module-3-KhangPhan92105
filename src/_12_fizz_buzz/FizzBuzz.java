@@ -26,7 +26,10 @@ package _12_fizz_buzz;
 **/
 
 public class FizzBuzz { public static void main(String[] args) {
-	for(int i=1; i<21; i++) {
+	//int = 1; //executes one time (only runs once)
+	//i<20; //checked every time after the loop runs
+	//i++ //runs at the end of each loop, prior to the check above.
+	for(int i=1; i<=20; i++) {
 		System.out.println(i);
 		
 	}
